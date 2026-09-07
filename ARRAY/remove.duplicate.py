@@ -1,17 +1,17 @@
-#REMOVE DUPLICTES FROM A SORTED ARRAY
-# BRUTE FORCE
-nums=[1,1,1,2,3,4,4,7,9,9,9,10]
-new_dict={}
-for i in range(0,len(nums)):
-    if nums[i] in new_dict:
-        new_dict[nums[i]]=0
-    else:
-        new_dict[nums[i]]=0
-j=0
-for k in new_dict:
-    nums[j]=k
-    j+=1
-print(j)
+# #REMOVE DUPLICTES FROM A SORTED ARRAY
+# # BRUTE FORCE
+# nums=[1,1,1,2,3,4,4,7,9,9,9,10]
+# new_dict={}
+# for i in range(0,len(nums)):
+#     if nums[i] in new_dict:
+#         new_dict[nums[i]]=0
+#     else:
+#         new_dict[nums[i]]=0
+# j=0
+# for k in new_dict:
+#     nums[j]=k
+#     j+=1
+# print(j)
 
 
 #OPTIMAL WAY
