@@ -10,7 +10,6 @@ class Solution:
         self.solve(index+1,numbers,result)
                     
     def binstr(self, n):
-        # code here
         numbers=["0"]*n
         result=[]
         self.solve(0,numbers,result)
