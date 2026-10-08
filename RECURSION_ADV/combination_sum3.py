@@ -1,3 +1,4 @@
+#COMBINATION SUM 3    
 class Solution(object):
     def solve(self, last, total, subset, k, n, result):
         if total == n and len(subset) == k:
