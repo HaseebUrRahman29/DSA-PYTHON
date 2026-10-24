@@ -1,4 +1,4 @@
-#GENERATE ALL BINARY STRING WITHOUT CONSECUTIVE ONES
+#GENERATE ALL BINARY STRING WITHOUT CONSECUTIVE ONES.
 class Solution:
     def solve(self,index,flag,numbers,result):
         if index>=len(numbers):
