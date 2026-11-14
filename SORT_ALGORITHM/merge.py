@@ -34,4 +34,5 @@ def merge_sort(nums):
     right=merge_sort(right_nums)
     return merge_array(left,right)
 
+
 print(merge_sort(nums))
